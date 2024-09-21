@@ -2,16 +2,21 @@
 <html>  
     <header>
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="table_style.css">
+        <link rel="stylesheet" href="table_styles.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+        </style>
         <title>Cody's Personal Github</title>
     </header>
-    <body>  
+    <body >  
         <!---Navigation--->
         <!--This section of code defines the navigation bar at the top of the page.  The classes used here are defined in the style.css file.-->
         <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
             <div class="container">
                 <!--This code defines the "My Webpage" link in the top left corner of the navigation pane-->
-                <a class="navbar-brand" href="./index.html">My Webpage</a>
+                <a class="navbar-brand" href="./index.html">
+                    <img src="logo(light).svg" alt="mylogo" width="50" height="50">
+                </a>
                 <!--This code defines the "List" link in the top right corner of the navigation pane-->
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="./list.html">List</a></li>
@@ -23,20 +28,24 @@
             <div class="container d-flex align-items-center flex-column">
                 
                 <!-- This code is for the student name-->
-                <h1 class="masthead-heading text-uppercase mb-0">Cody Mak</h1>
-                <!--This code creates the two lines separating the student name from the subtitle-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-line"></div>
-                </div>
+                <h1 class="masthead-heading text-uppercase mb-4">Cody Mak</h1>
                 <!--This code creates the subheading underneath the line dividers-->
-                <p class="masthead-subheading font-weight-light mb-0">School of Information</p>
+                <p class="masthead-subheading font-weight-light mb-4">PRODUCT DESIGNER</p>
             </div>
         </header>
-        <section class="text-center">
+        <section class="text-start">
 
-            <div class="col-md-6 col-lg-4 mb-5">
-                <p class="masthead-subheading font-weight-light mb-0">I'm a Product Designer</p>
+            <div class="col-md-6 col-lg-7 m-auto row ">
+                <div>
+                    <p class="masthead-subheading font-weight-light text-center p-5"> Hi! I am a Product Designer who advocates for marginalized experiences across digital ecosystems intending to empower underrepresented users. 
+
+                        I am currently a graduate student at UC Berkeley's Masters of Information Management and Systems (MIMS) program. Through my experience designing for start-ups, freelance roles, and SaaS companies, I can confidently incorporate user-centric and business-oriented goals in the product development cycle. Alongside, I have experience in visual design such as managing consistent and cohesive design systems and guidelines for previous start-ups and freelance work.
+                    </p>
+                </div>
+        
+                <div>
+                    <img src="aboutme.png" alt="me" width="auto" height="auto">
+                </div>
                 <!-- put your bio paragraph here; remember to use the correct html tags -->
                 
             </div>
