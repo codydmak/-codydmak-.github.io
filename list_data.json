@@ -1,10 +1,10 @@
 {
-	"movies": [
+	"Cafes": [
 		{
-			"Title": "Lost In Translation",
-			"Director": "Sofia Coppola",
-			"Rating": "R",
-			"Year": "2003"
+			"Name": "1951 Coffee Company",
+			"Location": "2410 Channing Way, Berkeley",
+			"Rating": "4.5",
+			"Coffee": "Honey Lavendar Latte"
 		},
 		{
 			"Title": "Casino Royale",
