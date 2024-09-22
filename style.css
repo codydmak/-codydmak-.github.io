@@ -241,11 +241,11 @@ sup {
 }
 
 a {
-  color: #1abc9c;
+  color: hsl(231, 100%, 69%);
   text-decoration: underline;
 }
 a:hover {
-  color: #15967d;
+  color: hsl(231, 100%, 69%);
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -3293,7 +3293,7 @@ textarea.form-control-lg {
   color: #1abc9c;
   background-color: transparent;
 }
-
+ 
 .btn-outline-secondary {
   color: #2c3e50;
   border-color: #2c3e50;
