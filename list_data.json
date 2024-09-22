@@ -4,19 +4,19 @@
 			"Name": "1951 Coffee Company",
 			"Location": "2410 Channing Way, Berkeley",
 			"Rating": "4.5",
-			"Coffee": "Honey Lavendar Latte"
+			"Favortie Coffee": "Honey Lavendar Latte"
 		},
 		{
-			"Title": "Casino Royale",
-			"Director": "Martin Campbell",
-			"Rating": "PG-13",
-			"Year": "2006"
+			"Name": "MY Coffee Roastery",
+			"Location": "2080 Martin Luther King Jr Way, Berkeley",
+			"Rating": "4.8",
+			"Favorite Coffee": "Orange Blossom Latte"
 		},
 		{
-			"Title": "The Dark Knight",
-			"Director": "Christopher Nolan",
-			"Rating": "PG-13",
-			"Year": "2008"
+			"Name": "SIGNAL Coffee Roasters",
+			"Location": "2130 Center St, Berkeley",
+			"Rating": "4.0",
+			"Favorite Coffee": "Iced Oat Latte"
 		}
 	]
 }
